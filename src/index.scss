@@ -1,0 +1,37 @@
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/helpers/color.sass";
+@import "node_modules/bulma/sass/elements/button.sass";
+@import "node_modules/bulma/sass/elements/container.sass";
+@import "node_modules/bulma/sass/form/shared.sass";
+@import "node_modules/bulma/sass/base/animations.sass";
+@import "node_modules/bulma/sass/form/tools.sass";
+@import "node_modules/bulma/sass/form/input-textarea.sass";
+@import "node_modules/bulma/sass/components/message.sass";
+
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Dosis', 'Roboto', 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
